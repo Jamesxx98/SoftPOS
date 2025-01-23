@@ -10,7 +10,6 @@ import android.nfc.Tag
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.softpos.R
 import com.google.android.material.button.MaterialButton
 
 
@@ -39,7 +38,6 @@ class TransactionActivity : AppCompatActivity() {
 
     private fun startNfcPayment() {
         // This would trigger NFC processing when the user taps the button
-        // In this case, we are just showing a message that NFC has been started
         Toast.makeText(this, "Initiating NFC payment...", Toast.LENGTH_SHORT).show()
     }
 
